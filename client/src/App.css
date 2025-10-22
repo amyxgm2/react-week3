@@ -1,0 +1,49 @@
+/* === NAVIGATION BAR === */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #6200ea;
+  padding: 15px;
+}
+
+/* Navigation links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #bb86fc;
+}
+
+/* === HOME PAGE === */
+.home {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.home h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home p {
+  color: #555;
+}
+
+/* === RESPONSIVE NAVBAR === */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}

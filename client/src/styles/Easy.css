@@ -1,0 +1,49 @@
+/* Center content on the screen */
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Counter number styling */
+.counter {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Button layout */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Basic button style */
+.button {
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #3700b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .counter {
+    font-size: 2rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    padding: 8px 18px;
+  }
+}

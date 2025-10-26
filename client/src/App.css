@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: #6200ea;
+  background-color: #FFC5D3;
   padding: 15px;
 }
 
@@ -16,10 +16,9 @@
 }
 
 .nav-link:hover {
-  color: #bb86fc;
+  color: #FF1493;
 }
-
-/* === HOME PAGE === */
+/* Homepage */
 .home {
   text-align: center;
   margin-top: 50px;
@@ -27,12 +26,12 @@
 }
 
 .home h1 {
-  color: #333;
+  color: black;
   margin-bottom: 10px;
 }
 
 .home p {
-  color: #555;
+  color: black;
 }
 
 /* === RESPONSIVE NAVBAR === */

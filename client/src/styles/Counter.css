@@ -1,0 +1,23 @@
+.counter-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.count {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
